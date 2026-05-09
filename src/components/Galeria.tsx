@@ -41,7 +41,7 @@ export default function Galeria() {
 
             <motion.div
               key={index}
-              className="overflow-hidden rounded-2xl shadow-lg group"
+              className="overflow-hidden rounded-2xl shadow-lg group hover:-translate-y-2 transition duration-300"
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ delay: index * 0.1 }}

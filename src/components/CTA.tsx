@@ -29,7 +29,7 @@ export default function CTA() {
         <a
           href="https://wa.me/5515999999999"
           target="_blank"
-          className="inline-block bg-green-500 hover:bg-green-600 hover:scale-105 shadow-2xl px-10 py-5 rounded-2xl text-lg font-semibold transition duration-300"
+          className="inline-block bg-green-500 hover:bg-green-600 hover:scale-105 shadow-2xl px-10 py-5 rounded-2xl text-lg font-semibold transition duration-300 active:scale-95"
         >
           Falar no WhatsApp
         </a>

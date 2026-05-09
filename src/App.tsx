@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
+import WhatsappButton from "./components/WhatsappButton";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       </main>
 
       <Footer />
+      <WhatsappButton />
 
     </div>
   );

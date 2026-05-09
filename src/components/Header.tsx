@@ -34,18 +34,18 @@ export default function Header() {
 
         {/* MENU DESKTOP */}
         <nav className="hidden md:flex gap-8 text-sm font-medium">
-          <a href="#sobre" className="hover:text-yellow-300 transition">Sobre</a>
-          <a href="#diferenciais" className="hover:text-yellow-300 transition">Diferenciais</a>
-          <a href="#estrutura" className="hover:text-yellow-300 transition">Estrutura</a>
-          <a href="#contato" className="hover:text-yellow-300 transition">Contato</a>
+          <a href="#sobre" className="hover:text-yellow-300 transition duration-300">Sobre</a>
+          <a href="#diferenciais" className="hover:text-yellow-300 transition duration-300">Diferenciais</a>
+          <a href="#estrutura" className="hover:text-yellow-300 transition duration-300">Estrutura</a>
+          <a href="#contato" className="hover:text-yellow-300 transition duration-300">Contato</a>
         </nav>
 
         {/* BOTÃO HAMBÚRGUER */}
         <button
-          className="md:hidden text-2xl"
+          className="md:hidden text-3xl transition duration-300 hover:scale-110"
           onClick={() => setOpen(!open)}
         >
-          ☰
+          {open ? "✕" : "☰"}
         </button>
       </div>
 

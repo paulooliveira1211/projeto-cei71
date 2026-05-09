@@ -33,7 +33,7 @@ export default function Hero() {
         <a
           href="https://wa.me/5515999999999"
           target="_blank"
-          className="inline-block bg-green-500 hover:bg-green-600 hover:scale-105 shadow-xl px-8 py-4 rounded-xl text-lg font-semibold transition duration-300"
+          className="inline-block bg-green-500 hover:bg-green-600 hover:scale-105 shadow-xl px-8 py-4 rounded-xl text-lg font-semibold transition duration-300 active:scale-95"
         >
           Agendar visita
         </a>

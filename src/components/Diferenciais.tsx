@@ -54,7 +54,7 @@ export default function Diferenciais() {
 
             <motion.div
               key={index}
-              className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg text-center hover:scale-105 transition duration-300"
+              className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg text-center hover:scale-105 hover:-translate-y-2 transition duration-300"
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.2 }}
